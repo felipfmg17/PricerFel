@@ -1,0 +1,9 @@
+pythondev:
+   build: .
+   stdin_open: true
+   tty: true
+   volumes:
+    - ../.:/home/felipedev/project
+    - /home/felipe/virtualenvs:/home/felipedev/.local/share/virtualenvs
+
+   
